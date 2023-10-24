@@ -34,16 +34,16 @@ function Home() {
             <div className="projects">
                 <p>{sectionTitles[2]}</p>
                 <ul>
-                    <li><TypeAnimation sequence={["Old Resume: "]} cursor={false} /> <a href="https://github.com/vatsa2005/Old-Resume.git"><TypeAnimation sequence={["https://github.com/vatsa2005/Old-Resume.git"]} cursor={false} /></a></li>
-                    <li><TypeAnimation sequence={["Drum Roll: "]} cursor={false} /><a href="https://github.com/vatsa2005/drum-kit.git"><TypeAnimation sequence={["https://github.com/vatsa2005/drum-kit.git"]} cursor={false} /></a></li>
-                    <li><TypeAnimation sequence={["Simon Game:"]} cursor={false} /><a href="https://github.com/vatsa2005/Simon-game.git"><TypeAnimation sequence={["https://github.com/vatsa2005/Simon-game.git"]} cursor={false} /></a></li>
+                    <li><TypeAnimation sequence={["Old Resume: "]} cursor={false} /> <a href="https://github.com/vatsa2005/Old-Resume.git" target="_blank"><TypeAnimation sequence={["https://github.com/vatsa2005/Old-Resume.git"]} cursor={false} /></a></li>
+                    <li><TypeAnimation sequence={["Drum Roll: "]} cursor={false} /><a href="https://github.com/vatsa2005/drum-kit.git" target="_blank"><TypeAnimation sequence={["https://github.com/vatsa2005/drum-kit.git"]} cursor={false} /></a></li>
+                    <li><TypeAnimation sequence={["Simon Game:"]} cursor={false} /><a href="https://github.com/vatsa2005/Simon-game.git" target="_blank"><TypeAnimation sequence={["https://github.com/vatsa2005/Simon-game.git"]} cursor={false} /></a></li>
                 </ul>
             </div>
             
             <div className="contact">
                 <p>{sectionTitles[3]}</p>
                 <ul>
-                    <li><TypeAnimation sequence={["Github: "]} cursor={false} /><a href="https://github.com/vatsa2005"><TypeAnimation sequence={["https://github.com/vatsa2005"]} cursor={false} /></a> </li>
+                    <li><TypeAnimation sequence={["Github: "]} cursor={false} /><a href="https://github.com/vatsa2005" target="_blank"><TypeAnimation sequence={["https://github.com/vatsa2005"]} cursor={false} /></a> </li>
                     <li><TypeAnimation sequence={["Instagram: "]} cursor={false} /><TypeAnimation sequence={["its_me_vatsa"]} cursor={false} /></li>
                     <li><TypeAnimation sequence={["Email: "]} cursor={false}/><TypeAnimation sequence={["svatsa2005@gmail.com"]} cursor={false} /></li>
                 </ul>
