@@ -1,0 +1,71 @@
+.home {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    height: 100%;
+    width: 100%;
+    color: #00d061;
+    /* color: white; */
+    /* color: #FF97A0; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.home>.intro>.content>p {
+    margin: 0;
+    padding: 0;
+}
+.intro {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 26pt;
+    text-align: center;
+    height: min-content;
+    margin-top: 10px;
+    font-size: 1em;
+}
+.content {
+    background-color: #545454;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+}
+.skills,.hobbies,.projects,.contact {
+    background-color: #545454;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    line-height: 20pt;
+    height: min-content;
+    min-height: 90%;
+}
+.skills>p {
+    text-align: center;
+}
+.skills,.hobbies,.projects,.contact>ul>ol {
+    padding: 0;
+}
+/* .hobbies {
+    background-color: #545454;
+    border-radius: 20px;
+
+}
+.projects {
+    background-color: #545454;
+    border-radius: 20px;
+}
+.contact {
+    background-color: #545454;
+    border-radius: 20px;
+} */
+/*
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sometype Mono', monospace;
+*/
+
